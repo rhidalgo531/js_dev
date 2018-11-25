@@ -1,0 +1,57 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height:  74px;
+  background-color: silver;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 10px 10px 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: navy;
+}
+
+nav ul li a:hover {
+  color:  white;
+}
+
+aside {
+  background-color: silver;
+  width: 15%;
+  height: 100%;
+  position: relative;
+  float: left;
+  top: 100px;
+  border-radius: 10px;
+}
+
+aside button {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+article {
+  position:  relative;
+  text-align: center;
+  margin: auto;
+  top: 100px;
+  width:  60%;
+  height: 100%;
+  overflow-y: "scroll";
+}
