@@ -1,0 +1,3 @@
+[submodule "movie_site"]
+	path = movie_site
+	url = https://github.com/rhidalgo531/movie_site.git
